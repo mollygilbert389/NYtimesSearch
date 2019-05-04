@@ -5,3 +5,11 @@
     padding-left: 15px;
     margin: 10px;
 }
+
+body {
+    background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/dark-background-with-marble-texture-backdrop-for-photography_1024x1024@2x.jpg?v=1551510514")
+}
+
+#resultsSection {
+    background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/dark-background-with-marble-texture-backdrop-for-photography_1024x1024@2x.jpg?v=1551510514")
+}

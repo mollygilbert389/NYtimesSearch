@@ -17,6 +17,7 @@
         <div class="jumbotron jumbotron-fluid col-lg-12">
                 <div class="container">
                   <h1 class="display-4">NY Times Search</h1>
+                    <h3>Search the New York Times Database using the parameters below.</h3>
                 </div>
               </div>
 
@@ -42,7 +43,7 @@
                         </select>
                     </div>
 
-                    <div class="form-group">
+                    <div id="searchForm" class="form-group">
                         <label for="startYear">Start Year:</label>
                         <input type="text" class="form-control" id="startYear" placeholder="2000">
                     </div>
@@ -53,7 +54,7 @@
 
                    <button id="searchBtn" type="submit" class="btn btn-primary btn-default">Search</button>
 
-                   <button type="button" class="btn btn-default">Clear</button>
+                   <button id="clear" type="button" class="btn btn-secondary">Clear</button>
                 </form>
             </div>
         </div>
@@ -62,7 +63,7 @@
             <div class="card-header">
                 Results:
             </div>
-            <div class="card-body col-lg-12">
+            <div id="resultsSection" class="card-body col-lg-12">
                 <div>
                     <div id="wellSection"></div>
                 </div>

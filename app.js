@@ -67,4 +67,9 @@ $("#searchBtn").on('click', function() {
 
     return false;
 })
-//////////////////PROCESS///////////////////////////////////
+
+$("#clear").on("click", function(){
+    $("#wellSection").empty();
+    document.getElementById("").reset()
+
+})
